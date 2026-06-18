@@ -1,21 +1,81 @@
-# Next.js template
+# 🍕 Pizza Next
 
-This is a Next.js template with shadcn/ui.
+Учебный проект интернет-магазина пиццы, вдохновлённый сервисом «Додо Пицца». Разработан на **Next.js** в рамках обучения по видеоурокам канала Archakov Blog.
 
-## Adding components
+## 🚀 О проекте
 
-To add components to your app, run the following command:
+Проект представляет собой современное веб-приложение для заказа пиццы с удобным интерфейсом, каталогом товаров, фильтрацией и сортировкой.
+
+Основная цель проекта — изучение возможностей **Next.js**, построение масштабируемой архитектуры приложения и работа с современным стеком фронтенд-разработки.
+
+## 🛠️ Технологии
+
+* Next.js 15
+* React 19
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* Lucide React
+* ESLint
+* Prettier
+
+## ✨ Возможности
+
+* Просмотр каталога пицц
+* Категории товаров
+* Сортировка товаров
+* Адаптивный интерфейс
+* Компонентный подход
+* Типизация с TypeScript
+* Современный UI на базе Tailwind CSS и shadcn/ui
+
+## 📂 Структура проекта
+
+```text
+src/
+├── app/           # Маршруты и страницы
+├── shared/        # Переиспользуемые компоненты, утилиты и константы
+├── widgets/       # Крупные UI-блоки
+├── lib/           # Вспомогательные функции
+└── ...
+```
+
+## ⚙️ Установка и запуск
+
+Клонировать репозиторий:
 
 ```bash
-npx shadcn@latest add button
+git clone <repository-url>
 ```
 
-This will place the ui components in the `components` directory.
+Перейти в папку проекта:
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
+```bash
+cd pizza-next
 ```
+
+Установить зависимости:
+
+```bash
+npm install
+```
+
+Запустить проект в режиме разработки:
+
+```bash
+npm run dev
+```
+
+Открыть в браузере:
+
+```text
+http://localhost:3000
+```
+
+## 📖 Источник
+
+Проект создаётся в образовательных целях по материалам канала **Archakov Blog**.
+
+## 📄 Лицензия
+
+Проект создан исключительно для обучения и изучения современных технологий веб-разработки.
